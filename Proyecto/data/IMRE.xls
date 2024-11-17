@@ -1,0 +1,1943 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"> 
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"> 
+		<meta name="ProgId" content="Excel.Sheet"> 
+		<meta name="Generator" content="Microsoft Excel 10"> 
+		<link rel="File-List" href="Libro1_archivos/filelist.xml"> 
+			<link rel="Edit-Time-Data" href="Libro1_archivos/editdata.mso"> 
+				<link rel="OLE-Object-Data" href="Libro1_archivos/oledata.mso"> 
+					<!--[If gte mso 9]><xml> 
+ <o:DocumentProperties> 
+  <o:Author></o:Author> 
+  <o:LastAuthor></o:LastAuthor> 
+  <o:Created>2024-11-16T00:00:00Z</o:Created> 
+  <o:LastSaved>2024-11-16T00:00:00Z</o:LastSaved> 
+  <o:Company>BCCR</o:Company> 
+  <o:Version>10.4219</o:Version> 
+ </o:DocumentProperties> 
+ <o:OfficeDocumentSettings> 
+  <o:DownloadComponents/> 
+ </o:OfficeDocumentSettings> 
+</xml><![endif]--> 
+					<style> 
+						<!--table 
+	{mso-displayed-decimal-separator:"\,"; 
+	mso-displayed-thousand-separator:"\.";} 
+@page 
+	{margin:.98in .79in .98in .79in; 
+	mso-header-margin:0in; 
+	mso-footer-margin:0in;} 
+            tr 
+	{mso-height-source:auto;} 
+            col 
+	{mso-width-source:auto;} 
+            br 
+	{mso-data-placement:same-cell;} 
+            .style0 
+	{mso-number-format:General; 
+	text-align:general; 
+	vertical-align:bottom; 
+	white-space:nowrap; 
+	mso-rotate:0; 
+	mso-background-source:auto; 
+	mso-pattern:auto; 
+	color:windowtext; 
+	font-size:10.0pt; 
+	font-weight:400; 
+	font-style:normal; 
+	text-decoration:none; 
+	font-family:Arial; 
+	mso-generic-font-family:auto; 
+	mso-font-charset:0; 
+	border:none; 
+	mso-protection:locked visible; 
+	mso-style-name:Normal; 
+	mso-style-id:0;} 
+            td 
+	{mso-style-parent:style0; 
+	padding-top:1px; 
+	padding-right:1px; 
+	padding-left:1px; 
+	mso-ignore:padding; 
+	color:windowtext; 
+	font-size:10.0pt; 
+	font-weight:400; 
+	font-style:normal; 
+	text-decoration:none; 
+	font-family:Arial; 
+	mso-generic-font-family:auto; 
+	mso-font-charset:0; 
+	mso-number-format:General; 
+	text-align:general; 
+	vertical-align:bottom; 
+	border:none; 
+	mso-background-source:auto; 
+	mso-pattern:auto; 
+	mso-protection:locked visible; 
+	white-space:nowrap; 
+	mso-rotate:0;} 
+	.numero 
+	{mso-style-parent:style0; 
+	mso-number-format:"\#\,\#\#0\.0";} 
+	.texto 
+	{mso-style-parent:style0; 
+	mso-number-format:"\@";} 
+--></style> 
+		<!--[If gte mso 9]><xml> 
+ <x:ExcelWorkbook> 
+  <x:ExcelWorksheets> 
+   <x:ExcelWorksheet> 
+    <x:Name>Hoja1</x:Name> 
+    <x:WorksheetOptions> 
+     <x:Selected/> 
+     <x:ProtectContents>False</x:ProtectContents> 
+     <x:ProtectObjects>False</x:ProtectObjects> 
+     <x:ProtectScenarios>False</x:ProtectScenarios> 
+    </x:WorksheetOptions> 
+    <x:QueryTable> 
+     <x:RefreshOnFileOpen/> 
+     <x:Name>DataExported</x:Name> 
+     <x:AutoFormatFont/> 
+     <x:AutoFormatPattern/> 
+     <x:QuerySource> 
+      <x:QueryType>Web</x:QueryType> 
+      <x:EnableRedirections/> 
+      <x:RefreshedInXl9/> 
+      <x:EntirePage/> 
+      <x:URLString 
+       HRef='https://gee.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?CodCuadro=5925&Idioma=1&FecInicial=2000/01/31&FecFinal=2024/09/30&Filtro=0&Exportar=True&Excel=True'/> 
+      <x:VersionLastEdit>1</x:VersionLastEdit> 
+      <x:VersionLastRefresh>1</x:VersionLastRefresh> 
+     </x:QuerySource> 
+    </x:QueryTable> 
+   </x:ExcelWorksheet> 
+   <x:ExcelWorksheet> 
+    <x:Name>Hoja2</x:Name> 
+    <x:WorksheetOptions> 
+     <x:ProtectContents>False</x:ProtectContents> 
+     <x:ProtectObjects>False</x:ProtectObjects> 
+     <x:ProtectScenarios>False</x:ProtectScenarios> 
+    </x:WorksheetOptions> 
+   </x:ExcelWorksheet> 
+   <x:ExcelWorksheet> 
+    <x:Name>Hoja3</x:Name> 
+    <x:WorksheetOptions> 
+     <x:ProtectContents>False</x:ProtectContents> 
+     <x:ProtectObjects>False</x:ProtectObjects> 
+     <x:ProtectScenarios>False</x:ProtectScenarios> 
+    </x:WorksheetOptions> 
+   </x:ExcelWorksheet> 
+  </x:ExcelWorksheets> 
+  <x:ProtectStructure>False</x:ProtectStructure> 
+  <x:ProtectWindows>False</x:ProtectWindows> 
+ </x:ExcelWorkbook> 
+ <x:ExcelName> 
+  <x:Name>DataExported</x:Name> 
+  <x:SheetIndex>1</x:SheetIndex> 
+  <x:Formula>=Hoja1!$A$1:$D$303</x:Formula> 
+ </x:ExcelName> 
+</xml><![endif]--> 
+	</head> 
+	<body link="blue" vlink="purple"> 
+<form id="Form1" method="post" runat="server">
+    <table id="Table9" cellPadding="0" cellSpacing="0" border="0">
+        <TR><TD colSpan="10" class=texto><a name="DataExported">&Iacute;ndice Mensual R&eacute;gimen Especial</a></TD></TR>
+        <TR><TD colSpan="10" class=texto>Tendencia Ciclo</TD></TR>
+        <TR><TD colSpan="10" class=texto>2017=100</TD></TR>
+        <TR><TD>&nbsp;</TD></TR>
+        <tr>
+            <td rowspan="1" colspan=1>&nbsp;</td>
+            <td class=texto rowspan="1" colspan="1">
+                Nivel
+            </td>
+            <td class=texto rowspan="1" colspan="1">
+                Variaci&oacute;n Media
+            </td>
+            <td class=texto rowspan="1" colspan="1">
+                Variaci&oacute;n interanual
+            </td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2000</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2000</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2000</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2000</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2000</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2000</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2000</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2000</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2000</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2000</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2000</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2000</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2001</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2001</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2001</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2001</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2001</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2001</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2001</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2001</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2001</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2001</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2001</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2001</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2002</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2002</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2002</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2002</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2002</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2002</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2002</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2002</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2002</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2002</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2002</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2002</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2003</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2003</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2003</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2003</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2003</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2003</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2003</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2003</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2003</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2003</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2003</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2003</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2004</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2004</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2004</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2004</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2004</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2004</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2004</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2004</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2004</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2004</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2004</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2004</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2005</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2005</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2005</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2005</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2005</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2005</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2005</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2005</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2005</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2005</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2005</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2005</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2006</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2006</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2006</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2006</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2006</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2006</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2006</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2006</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2006</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2006</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2006</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2006</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2007</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2007</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2007</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2007</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2007</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2007</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2007</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2007</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2007</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2007</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2007</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2007</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2008</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2008</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2008</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2008</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2008</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2008</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2008</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2008</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2008</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2008</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2008</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2008</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2009</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2009</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2009</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2009</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2009</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2009</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2009</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2009</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2009</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2009</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2009</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2009</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2010</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2010</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2010</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2010</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2010</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2010</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2010</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2010</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2010</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2010</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2010</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2010</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2011</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2011</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2011</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2011</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2011</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2011</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2011</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2011</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2011</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2011</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2011</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2011</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2012</td>
+            <td class=numero align=right>66,78606844</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2012</td>
+            <td class=numero align=right>68,20834788</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2012</td>
+            <td class=numero align=right>69,46279246</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2012</td>
+            <td class=numero align=right>69,99945471</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2012</td>
+            <td class=numero align=right>69,64157714</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2012</td>
+            <td class=numero align=right>68,78656831</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2012</td>
+            <td class=numero align=right>68,01952958</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2012</td>
+            <td class=numero align=right>67,60379536</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2012</td>
+            <td class=numero align=right>67,41241625</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2012</td>
+            <td class=numero align=right>67,49129752</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2012</td>
+            <td class=numero align=right>68,00083280</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2012</td>
+            <td class=numero align=right>68,61952841</td>
+            <td class=numero align=right></td>
+            <td class=numero align=right></td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2013</td>
+            <td class=numero align=right>68,98270692</td>
+            <td class=numero align=right>3,28906692</td>
+            <td class=numero align=right>3,28906691</td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2013</td>
+            <td class=numero align=right>68,89967304</td>
+            <td class=numero align=right>2,13932081</td>
+            <td class=numero align=right>1,01354919</td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2013</td>
+            <td class=numero align=right>68,19122425</td>
+            <td class=numero align=right>0,79057884</td>
+            <td class=numero align=right>-1,83057456</td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2013</td>
+            <td class=numero align=right>67,43693490</td>
+            <td class=numero align=right>-0,34472633</td>
+            <td class=numero align=right>-3,66077110</td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2013</td>
+            <td class=numero align=right>67,73477362</td>
+            <td class=numero align=right>-0,82910273</td>
+            <td class=numero align=right>-2,73802461</td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2013</td>
+            <td class=numero align=right>68,83926423</td>
+            <td class=numero align=right>-0,67821143</td>
+            <td class=numero align=right>0,07660786</td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2013</td>
+            <td class=numero align=right>69,97292746</td>
+            <td class=numero align=right>-0,17609201</td>
+            <td class=numero align=right>2,87181916</td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2013</td>
+            <td class=numero align=right>71,37765458</td>
+            <td class=numero align=right>0,53363386</td>
+            <td class=numero align=right>5,58231857</td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2013</td>
+            <td class=numero align=right>72,77594340</td>
+            <td class=numero align=right>1,34604248</td>
+            <td class=numero align=right>7,95628973</td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2013</td>
+            <td class=numero align=right>73,53719755</td>
+            <td class=numero align=right>2,09777638</td>
+            <td class=numero align=right>8,95804385</td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2013</td>
+            <td class=numero align=right>73,70426907</td>
+            <td class=numero align=right>2,66696172</td>
+            <td class=numero align=right>8,38730356</td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2013</td>
+            <td class=numero align=right>73,24311969</td>
+            <td class=numero align=right>3,00762331</td>
+            <td class=numero align=right>6,73801087</td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2014</td>
+            <td class=numero align=right>72,38135962</td>
+            <td class=numero align=right>4,92681839</td>
+            <td class=numero align=right>4,92681840</td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2014</td>
+            <td class=numero align=right>71,79934605</td>
+            <td class=numero align=right>4,56789745</td>
+            <td class=numero align=right>4,20854393</td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2014</td>
+            <td class=numero align=right>71,84877363</td>
+            <td class=numero align=right>4,83122287</td>
+            <td class=numero align=right>5,36366581</td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2014</td>
+            <td class=numero align=right>72,17635947</td>
+            <td class=numero align=right>5,37284586</td>
+            <td class=numero align=right>7,02793592</td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2014</td>
+            <td class=numero align=right>72,27705880</td>
+            <td class=numero align=right>5,63746493</td>
+            <td class=numero align=right>6,70598710</td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2014</td>
+            <td class=numero align=right>72,25547269</td>
+            <td class=numero align=right>5,52417588</td>
+            <td class=numero align=right>4,96258712</td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2014</td>
+            <td class=numero align=right>72,57958671</td>
+            <td class=numero align=right>5,26196390</td>
+            <td class=numero align=right>3,72523967</td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2014</td>
+            <td class=numero align=right>73,05658579</td>
+            <td class=numero align=right>4,88532211</td>
+            <td class=numero align=right>2,35218041</td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2014</td>
+            <td class=numero align=right>72,99347564</td>
+            <td class=numero align=right>4,35059804</td>
+            <td class=numero align=right>0,29890680</td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2014</td>
+            <td class=numero align=right>72,65206327</td>
+            <td class=numero align=right>3,76522332</td>
+            <td class=numero align=right>-1,20365517</td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2014</td>
+            <td class=numero align=right>72,65188505</td>
+            <td class=numero align=right>3,26907949</td>
+            <td class=numero align=right>-1,42784676</td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2014</td>
+            <td class=numero align=right>73,05686574</td>
+            <td class=numero align=right>2,96356950</td>
+            <td class=numero align=right>-0,25429549</td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2015</td>
+            <td class=numero align=right>73,63717907</td>
+            <td class=numero align=right>1,73500396</td>
+            <td class=numero align=right>1,73500395</td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2015</td>
+            <td class=numero align=right>74,30880902</td>
+            <td class=numero align=right>2,61150229</td>
+            <td class=numero align=right>3,49510561</td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2015</td>
+            <td class=numero align=right>74,99816786</td>
+            <td class=numero align=right>3,20080235</td>
+            <td class=numero align=right>4,38336533</td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2015</td>
+            <td class=numero align=right>75,75324811</td>
+            <td class=numero align=right>3,64030282</td>
+            <td class=numero align=right>4,95576206</td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2015</td>
+            <td class=numero align=right>76,77003071</td>
+            <td class=numero align=right>4,15679559</td>
+            <td class=numero align=right>6,21631813</td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2015</td>
+            <td class=numero align=right>77,64135128</td>
+            <td class=numero align=right>4,70732831</td>
+            <td class=numero align=right>7,45393863</td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2015</td>
+            <td class=numero align=right>78,31586934</td>
+            <td class=numero align=right>5,16639040</td>
+            <td class=numero align=right>7,90343799</td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2015</td>
+            <td class=numero align=right>79,07196475</td>
+            <td class=numero align=right>5,55385395</td>
+            <td class=numero align=right>8,23386269</td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2015</td>
+            <td class=numero align=right>79,86949185</td>
+            <td class=numero align=right>5,98710598</td>
+            <td class=numero align=right>9,42004220</td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2015</td>
+            <td class=numero align=right>80,81262930</td>
+            <td class=numero align=right>6,51344636</td>
+            <td class=numero align=right>11,23239405</td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2015</td>
+            <td class=numero align=right>81,92022209</td>
+            <td class=numero align=right>7,08283949</td>
+            <td class=numero align=right>12,75718728</td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2015</td>
+            <td class=numero align=right>83,18358180</td>
+            <td class=numero align=right>7,65223714</td>
+            <td class=numero align=right>13,86141598</td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2016</td>
+            <td class=numero align=right>84,23919100</td>
+            <td class=numero align=right>14,39763454</td>
+            <td class=numero align=right>14,39763454</td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2016</td>
+            <td class=numero align=right>84,75512421</td>
+            <td class=numero align=right>14,22703474</td>
+            <td class=numero align=right>14,05797688</td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2016</td>
+            <td class=numero align=right>85,24120673</td>
+            <td class=numero align=right>14,03551748</td>
+            <td class=numero align=right>13,65771880</td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2016</td>
+            <td class=numero align=right>86,22482442</td>
+            <td class=numero align=right>13,98168907</td>
+            <td class=numero align=right>13,82327038</td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2016</td>
+            <td class=numero align=right>87,61452232</td>
+            <td class=numero align=right>14,01118420</td>
+            <td class=numero align=right>14,12594408</td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2016</td>
+            <td class=numero align=right>88,74554947</td>
+            <td class=numero align=right>14,06100126</td>
+            <td class=numero align=right>14,30191259</td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2016</td>
+            <td class=numero align=right>89,48271936</td>
+            <td class=numero align=right>14,09014079</td>
+            <td class=numero align=right>14,25873212</td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2016</td>
+            <td class=numero align=right>90,60769830</td>
+            <td class=numero align=right>14,15474105</td>
+            <td class=numero align=right>14,58890466</td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2016</td>
+            <td class=numero align=right>92,33638314</td>
+            <td class=numero align=right>14,32299547</td>
+            <td class=numero align=right>15,60907801</td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2016</td>
+            <td class=numero align=right>93,96324684</td>
+            <td class=numero align=right>14,52733569</td>
+            <td class=numero align=right>16,27297324</td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2016</td>
+            <td class=numero align=right>95,21192640</td>
+            <td class=numero align=right>14,69037406</td>
+            <td class=numero align=right>16,22518100</td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2016</td>
+            <td class=numero align=right>95,91244678</td>
+            <td class=numero align=right>14,74472578</td>
+            <td class=numero align=right>15,30213620</td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2017</td>
+            <td class=numero align=right>95,95555992</td>
+            <td class=numero align=right>13,90845375</td>
+            <td class=numero align=right>13,90845375</td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2017</td>
+            <td class=numero align=right>96,00309569</td>
+            <td class=numero align=right>13,58882419</td>
+            <td class=numero align=right>13,27114034</td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2017</td>
+            <td class=numero align=right>96,81166093</td>
+            <td class=numero align=right>13,58378024</td>
+            <td class=numero align=right>13,57378039</td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2017</td>
+            <td class=numero align=right>98,39420198</td>
+            <td class=numero align=right>13,71794767</td>
+            <td class=numero align=right>14,11354287</td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2017</td>
+            <td class=numero align=right>99,93665349</td>
+            <td class=numero align=right>13,78878034</td>
+            <td class=numero align=right>14,06402825</td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2017</td>
+            <td class=numero align=right>101,35978001</td>
+            <td class=numero align=right>13,86178474</td>
+            <td class=numero align=right>14,21393029</td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2017</td>
+            <td class=numero align=right>102,37864127</td>
+            <td class=numero align=right>13,94293556</td>
+            <td class=numero align=right>14,41163389</td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2017</td>
+            <td class=numero align=right>102,57805470</td>
+            <td class=numero align=right>13,84779906</td>
+            <td class=numero align=right>13,21119135</td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2017</td>
+            <td class=numero align=right>102,60827209</td>
+            <td class=numero align=right>13,52918307</td>
+            <td class=numero align=right>11,12442203</td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2017</td>
+            <td class=numero align=right>103,01568356</td>
+            <td class=numero align=right>13,11478320</td>
+            <td class=numero align=right>9,63401865</td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2017</td>
+            <td class=numero align=right>103,78692301</td>
+            <td class=numero align=right>12,71497212</td>
+            <td class=numero align=right>9,00622111</td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2017</td>
+            <td class=numero align=right>104,31073969</td>
+            <td class=numero align=right>12,36154898</td>
+            <td class=numero align=right>8,75620755</td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2018</td>
+            <td class=numero align=right>104,70682590</td>
+            <td class=numero align=right>9,12012393</td>
+            <td class=numero align=right>9,12012393</td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2018</td>
+            <td class=numero align=right>105,82496090</td>
+            <td class=numero align=right>9,67558933</td>
+            <td class=numero align=right>10,23077968</td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2018</td>
+            <td class=numero align=right>107,36567796</td>
+            <td class=numero align=right>10,08661436</td>
+            <td class=numero align=right>10,90159690</td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2018</td>
+            <td class=numero align=right>108,74769012</td>
+            <td class=numero align=right>10,19737979</td>
+            <td class=numero align=right>10,52245756</td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2018</td>
+            <td class=numero align=right>110,05393828</td>
+            <td class=numero align=right>10,18226274</td>
+            <td class=numero align=right>10,12369780</td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2018</td>
+            <td class=numero align=right>111,08524342</td>
+            <td class=numero align=right>10,08110808</td>
+            <td class=numero align=right>9,59499262</td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2018</td>
+            <td class=numero align=right>111,92298109</td>
+            <td class=numero align=right>9,96869969</td>
+            <td class=numero align=right>9,32258887</td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2018</td>
+            <td class=numero align=right>112,91981649</td>
+            <td class=numero align=right>9,98332800</td>
+            <td class=numero align=right>10,08184628</td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2018</td>
+            <td class=numero align=right>114,04150690</td>
+            <td class=numero align=right>10,11608247</td>
+            <td class=numero align=right>11,14260534</td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2018</td>
+            <td class=numero align=right>114,93315874</td>
+            <td class=numero align=right>10,26585838</td>
+            <td class=numero align=right>11,56860273</td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2018</td>
+            <td class=numero align=right>115,45894591</td>
+            <td class=numero align=right>10,35811246</td>
+            <td class=numero align=right>11,24614023</td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2018</td>
+            <td class=numero align=right>116,34181720</td>
+            <td class=numero align=right>10,45971249</td>
+            <td class=numero align=right>11,53388189</td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2019</td>
+            <td class=numero align=right>118,16322787</td>
+            <td class=numero align=right>12,85150405</td>
+            <td class=numero align=right>12,85150405</td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2019</td>
+            <td class=numero align=right>120,68136242</td>
+            <td class=numero align=right>13,44823217</td>
+            <td class=numero align=right>14,03865534</td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2019</td>
+            <td class=numero align=right>123,67521681</td>
+            <td class=numero align=right>14,03670909</td>
+            <td class=numero align=right>15,19064487</td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2019</td>
+            <td class=numero align=right>126,63453208</td>
+            <td class=numero align=right>14,65132876</td>
+            <td class=numero align=right>16,44802013</td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2019</td>
+            <td class=numero align=right>128,84368343</td>
+            <td class=numero align=right>15,14795357</td>
+            <td class=numero align=right>17,07321468</td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2019</td>
+            <td class=numero align=right>130,15259542</td>
+            <td class=numero align=right>15,49378022</td>
+            <td class=numero align=right>17,16461288</td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2019</td>
+            <td class=numero align=right>130,70591244</td>
+            <td class=numero align=right>15,68356787</td>
+            <td class=numero align=right>16,78201489</td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2019</td>
+            <td class=numero align=right>130,88376561</td>
+            <td class=numero align=right>15,71268604</td>
+            <td class=numero align=right>15,90858866</td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2019</td>
+            <td class=numero align=right>130,89817354</td>
+            <td class=numero align=right>15,60501896</td>
+            <td class=numero align=right>14,78116793</td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2019</td>
+            <td class=numero align=right>130,89913202</td>
+            <td class=numero align=right>15,42624584</td>
+            <td class=numero align=right>13,89152918</td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2019</td>
+            <td class=numero align=right>131,06421955</td>
+            <td class=numero align=right>15,24501354</td>
+            <td class=numero align=right>13,51586360</td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2019</td>
+            <td class=numero align=right>131,62223421</td>
+            <td class=numero align=right>15,06082995</td>
+            <td class=numero align=right>13,13407112</td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2020</td>
+            <td class=numero align=right>132,81980452</td>
+            <td class=numero align=right>12,40366984</td>
+            <td class=numero align=right>12,40366983</td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2020</td>
+            <td class=numero align=right>133,59296319</td>
+            <td class=numero align=right>11,54230766</td>
+            <td class=numero align=right>10,69891863</td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2020</td>
+            <td class=numero align=right>132,20252755</td>
+            <td class=numero align=right>9,95683200</td>
+            <td class=numero align=right>6,89492281</td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2020</td>
+            <td class=numero align=right>129,05133499</td>
+            <td class=numero align=right>7,87323918</td>
+            <td class=numero align=right>1,90848647</td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2020</td>
+            <td class=numero align=right>126,72805892</td>
+            <td class=numero align=right>5,88944709</td>
+            <td class=numero align=right>-1,64200871</td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2020</td>
+            <td class=numero align=right>127,21704464</td>
+            <td class=numero align=right>4,47251061</td>
+            <td class=numero align=right>-2,25546849</td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2020</td>
+            <td class=numero align=right>130,32458234</td>
+            <td class=numero align=right>3,76395743</td>
+            <td class=numero align=right>-0,29174663</td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2020</td>
+            <td class=numero align=right>134,57161456</td>
+            <td class=numero align=right>3,64129616</td>
+            <td class=numero align=right>2,81765193</td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2020</td>
+            <td class=numero align=right>138,80167884</td>
+            <td class=numero align=right>3,91632766</td>
+            <td class=numero align=right>6,03790342</td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2020</td>
+            <td class=numero align=right>142,74245811</td>
+            <td class=numero align=right>4,44457686</td>
+            <td class=numero align=right>9,04767351</td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2020</td>
+            <td class=numero align=right>146,43998401</td>
+            <td class=numero align=right>5,12549103</td>
+            <td class=numero align=right>11,73147371</td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2020</td>
+            <td class=numero align=right>149,83014004</td>
+            <td class=numero align=right>5,87255401</td>
+            <td class=numero align=right>13,83345750</td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2021</td>
+            <td class=numero align=right>152,66024815</td>
+            <td class=numero align=right>14,93786541</td>
+            <td class=numero align=right>14,93786540</td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2021</td>
+            <td class=numero align=right>154,99695310</td>
+            <td class=numero align=right>15,48140275</td>
+            <td class=numero align=right>16,02179441</td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2021</td>
+            <td class=numero align=right>157,28404786</td>
+            <td class=numero align=right>16,63908903</td>
+            <td class=numero align=right>18,97204295</td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2021</td>
+            <td class=numero align=right>160,00358278</td>
+            <td class=numero align=right>18,43554170</td>
+            <td class=numero align=right>23,98444603</td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2021</td>
+            <td class=numero align=right>162,92023719</td>
+            <td class=numero align=right>20,39600598</td>
+            <td class=numero align=right>28,55893050</td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2021</td>
+            <td class=numero align=right>164,91583646</td>
+            <td class=numero align=right>21,89951409</td>
+            <td class=numero align=right>29,63344411</td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2021</td>
+            <td class=numero align=right>165,36506273</td>
+            <td class=numero align=right>22,61228646</td>
+            <td class=numero align=right>26,88708436</td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2021</td>
+            <td class=numero align=right>164,73438016</td>
+            <td class=numero align=right>22,58677749</td>
+            <td class=numero align=right>22,41391374</td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2021</td>
+            <td class=numero align=right>164,32344604</td>
+            <td class=numero align=right>22,09500225</td>
+            <td class=numero align=right>18,38721795</td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2021</td>
+            <td class=numero align=right>164,54044425</td>
+            <td class=numero align=right>21,36152474</td>
+            <td class=numero align=right>15,27084963</td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2021</td>
+            <td class=numero align=right>164,91362801</td>
+            <td class=numero align=right>20,49287514</td>
+            <td class=numero align=right>12,61516390</td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2021</td>
+            <td class=numero align=right>165,48401508</td>
+            <td class=numero align=right>19,56629613</td>
+            <td class=numero align=right>10,44774772</td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2022</td>
+            <td class=numero align=right>165,93045956</td>
+            <td class=numero align=right>8,69264368</td>
+            <td class=numero align=right>8,69264368</td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2022</td>
+            <td class=numero align=right>166,36170006</td>
+            <td class=numero align=right>8,00727507</td>
+            <td class=numero align=right>7,33223895</td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2022</td>
+            <td class=numero align=right>167,69464756</td>
+            <td class=numero align=right>7,53763150</td>
+            <td class=numero align=right>6,61898002</td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2022</td>
+            <td class=numero align=right>169,36663060</td>
+            <td class=numero align=right>7,10600418</td>
+            <td class=numero align=right>5,85177385</td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2022</td>
+            <td class=numero align=right>171,10813796</td>
+            <td class=numero align=right>6,67582670</td>
+            <td class=numero align=right>5,02571130</td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2022</td>
+            <td class=numero align=right>174,50519877</td>
+            <td class=numero align=right>6,52677532</td>
+            <td class=numero align=right>5,81470071</td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2022</td>
+            <td class=numero align=right>179,44073343</td>
+            <td class=numero align=right>6,82035636</td>
+            <td class=numero align=right>8,51187698</td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2022</td>
+            <td class=numero align=right>183,83106674</td>
+            <td class=numero align=right>7,43313485</td>
+            <td class=numero align=right>11,59241111</td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2022</td>
+            <td class=numero align=right>187,01558235</td>
+            <td class=numero align=right>8,15713468</td>
+            <td class=numero align=right>13,80943308</td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2022</td>
+            <td class=numero align=right>189,99211744</td>
+            <td class=numero align=right>8,90352404</td>
+            <td class=numero align=right>15,46833868</td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2022</td>
+            <td class=numero align=right>193,87963005</td>
+            <td class=numero align=right>9,70744233</td>
+            <td class=numero align=right>17,56434710</td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2022</td>
+            <td class=numero align=right>198,11676538</td>
+            <td class=numero align=right>10,56054607</td>
+            <td class=numero align=right>19,71957853</td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2023</td>
+            <td class=numero align=right>201,22544272</td>
+            <td class=numero align=right>21,27094883</td>
+            <td class=numero align=right>21,27094884</td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2023</td>
+            <td class=numero align=right>202,65612681</td>
+            <td class=numero align=right>21,54411647</td>
+            <td class=numero align=right>21,81657601</td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2023</td>
+            <td class=numero align=right>203,70726965</td>
+            <td class=numero align=right>21,52097424</td>
+            <td class=numero align=right>21,47511719</td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2023</td>
+            <td class=numero align=right>206,14850276</td>
+            <td class=numero align=right>21,57065251</td>
+            <td class=numero align=right>21,71730761</td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2023</td>
+            <td class=numero align=right>208,63009420</td>
+            <td class=numero align=right>21,64356654</td>
+            <td class=numero align=right>21,92879701</td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2023</td>
+            <td class=numero align=right>209,47277224</td>
+            <td class=numero align=right>21,36754023</td>
+            <td class=numero align=right>20,03812707</td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2023</td>
+            <td class=numero align=right>209,67543531</td>
+            <td class=numero align=right>20,68876276</td>
+            <td class=numero align=right>16,84940833</td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2023</td>
+            <td class=numero align=right>210,23549869</td>
+            <td class=numero align=right>19,84508145</td>
+            <td class=numero align=right>14,36342204</td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2023</td>
+            <td class=numero align=right>211,27136133</td>
+            <td class=numero align=right>19,02364196</td>
+            <td class=numero align=right>12,96992404</td>
+        </tr>
+        <tr>
+            <td class=texto>Octubre/2023</td>
+            <td class=numero align=right>213,00953245</td>
+            <td class=numero align=right>18,27582638</td>
+            <td class=numero align=right>12,11493157</td>
+        </tr>
+        <tr>
+            <td class=texto>Noviembre/2023</td>
+            <td class=numero align=right>214,35495469</td>
+            <td class=numero align=right>17,50841675</td>
+            <td class=numero align=right>10,56084367</td>
+        </tr>
+        <tr>
+            <td class=texto>Diciembre/2023</td>
+            <td class=numero align=right>214,59596302</td>
+            <td class=numero align=right>16,66044965</td>
+            <td class=numero align=right>8,31792181</td>
+        </tr>
+        <tr>
+            <td class=texto>Enero/2024</td>
+            <td class=numero align=right>215,22302302</td>
+            <td class=numero align=right>6,95616822</td>
+            <td class=numero align=right>6,95616822</td>
+        </tr>
+        <tr>
+            <td class=texto>Febrero/2024</td>
+            <td class=numero align=right>217,78090022</td>
+            <td class=numero align=right>7,21061715</td>
+            <td class=numero align=right>7,46326975</td>
+        </tr>
+        <tr>
+            <td class=texto>Marzo/2024</td>
+            <td class=numero align=right>221,70166446</td>
+            <td class=numero align=right>7,75470935</td>
+            <td class=numero align=right>8,83345736</td>
+        </tr>
+        <tr>
+            <td class=texto>Abril/2024</td>
+            <td class=numero align=right>225,43054225</td>
+            <td class=numero align=right>8,15973221</td>
+            <td class=numero align=right>9,35347055</td>
+        </tr>
+        <tr>
+            <td class=texto>Mayo/2024</td>
+            <td class=numero align=right>228,72799187</td>
+            <td class=numero align=right>8,46043043</td>
+            <td class=numero align=right>9,63326875</td>
+        </tr>
+        <tr>
+            <td class=texto>Junio/2024</td>
+            <td class=numero align=right>231,13776887</td>
+            <td class=numero align=right>8,78049617</td>
+            <td class=numero align=right>10,34263136</td>
+        </tr>
+        <tr>
+            <td class=texto>Julio/2024</td>
+            <td class=numero align=right>232,70753652</td>
+            <td class=numero align=right>9,10110023</td>
+            <td class=numero align=right>10,98464452</td>
+        </tr>
+        <tr>
+            <td class=texto>Agosto/2024</td>
+            <td class=numero align=right>234,79788130</td>
+            <td class=numero align=right>9,42975986</td>
+            <td class=numero align=right>11,68327079</td>
+        </tr>
+        <tr>
+            <td class=texto>Septiembre/2024</td>
+            <td class=numero align=right>237,69412149</td>
+            <td class=numero align=right>9,77867556</td>
+            <td class=numero align=right>12,50655081</td>
+        </tr>
+    </table>
+</HTML>
